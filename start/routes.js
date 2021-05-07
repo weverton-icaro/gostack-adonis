@@ -15,3 +15,4 @@ Route.put("passwords", "ForgotPasswordController.update");
 
 //Criação de arquivos
 Route.post("/files", "FileController.store");
+Route.get("/files/:id", "FileController.show");
