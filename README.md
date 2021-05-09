@@ -18,7 +18,6 @@ adonis new yardstick --api-only
 
 or manually clone the repo and then run `npm install`.
 
-
 ### Migrations
 
 Run the following command to run startup migrations.
@@ -27,7 +26,18 @@ Run the following command to run startup migrations.
 adonis migration:run
 ```
 
-
 # Run to Dev
 
 - npm serve --dev
+
+# In this project
+
+Basic design of AdonisJS operation, including:
+
+- CRUD
+- Cors
+- Hook
+- Validation
+- JWT Authentication
+- Sending emails
+- Table relationship.
